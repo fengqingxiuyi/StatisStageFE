@@ -1,6 +1,6 @@
-# statisstagefe
+# StatisStageFE
 
-> A Vue.js project
+> 统计平台前端
 
 ## Build Setup
 
