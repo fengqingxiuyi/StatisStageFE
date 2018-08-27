@@ -10,7 +10,7 @@
 import Toast from '../common/toast/Toast'
 
 export default {
-  name: 'App',
+  name: 'ClickNumVue',
   components: {
     [Toast.name]: Toast
   },

@@ -6,6 +6,7 @@ import ClickNumVue from '@/components/module/ClickNumVue.vue'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/hello',
