@@ -19,7 +19,7 @@ export default {
   },
   methods: {
     getData () {
-      this.axios.get('http://104.224.173.101:8080/mybatis/queryName', {
+      this.axios.get('http://104.224.173.101:8080/firstmybatis/queryName', {
         params: { // 请求参数
           id: 1
         }
