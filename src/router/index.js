@@ -9,12 +9,12 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/hello',
+      path: '/statisstagefe/hello',
       name: 'HelloWorld',
       component: HelloWorld
     },
     {
-      path: '/',
+      path: '/statisstagefe/',
       name: 'ClickNumVue',
       component: ClickNumVue
     }
