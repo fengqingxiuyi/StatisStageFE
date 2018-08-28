@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div id="myChart" :style="{width: '1000px', height: '500px'}"></div>
+    <div id="myChart"></div>
     <toast ref="toast"></toast>
   </div>
 </template>
@@ -26,6 +26,11 @@ export default {
   },
   created () {
     this.getData()
+  },
+  mounted () { // 自适应
+    window.onresize = () => {
+      this.echarts.resize()
+    }
   },
   methods: {
     getData () {
@@ -93,5 +98,9 @@ export default {
 <style>
   #app {
     text-align: center;
+  }
+  #myChart {
+    width: 100%;
+    height: 500px;
   }
 </style>
