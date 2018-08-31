@@ -52,6 +52,7 @@ export default {
       this.series.forEach(item => {
         item.type = 'line'
         item.stack = '总量'
+        item.data = item.num
       })
       this.drawLine()
     },
